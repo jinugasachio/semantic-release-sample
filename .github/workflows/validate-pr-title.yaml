@@ -1,4 +1,4 @@
-name: Validate PR title for semantic-release
+name: Validate PR title
 
 on:
   pull_request:
@@ -31,3 +31,4 @@ jobs:
             starts with an uppercase character.
           wip: true
           validateSingleCommit: false
+  
