@@ -2,9 +2,10 @@ name: Release
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - main
+  pull_request:
+  # push:
+    # branches:
+    #   - main
     # paths:
     #   - '**/*.tf'
 
@@ -23,9 +24,12 @@ jobs:
         uses: cycjimmy/semantic-release-action@v4.0.0
         with:
           semantic_version: 22.0.7
+          branch: main
           extra_plugins: |
-            @semantic-release/changelog@6.0.0
-            @semantic-release/git@10.0.0
+            @semantic-release/commit-analyzer@11.1.0
+            @semantic-release/release-notes-generator@12.1.0
+            @semantic-release/changelog@6.0.3
+            @semantic-release/git@10.0.1
             conventional-changelog-conventionalcommits@4.6.3
         env:
           GITHUB_TOKEN: ${{ secrets.PAT_FOR_SEMANTIC_RELEASE }}
