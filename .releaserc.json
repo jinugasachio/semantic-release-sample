@@ -9,6 +9,10 @@
       {
         "releaseRules": [
           {
+            "breaking": true,
+            "release": "major"
+          },
+          {
             "type": "feat",
             "release": "minor"
           },
@@ -33,7 +37,14 @@
     [
       "@semantic-release/release-notes-generator",
       {
-        "preset": "conventionalcommits",
+        "preset": "angular",
+        "parserOpts": {
+          "noteKeywords": [
+            "BREAKING CHANGE",
+            "BREAKING CHANGES",
+            "BREAKING"
+          ]
+        },
         "writerOpts": {
           "commitsSort": [
             "subject",
