@@ -2,10 +2,9 @@ name: Release
 
 on:
   workflow_dispatch:
-  pull_request:
-  # push:
-    # branches:
-    #   - main
+  push:
+    branches:
+      - main
     # paths:
     #   - '**/*.tf'
 
@@ -24,7 +23,6 @@ jobs:
         uses: cycjimmy/semantic-release-action@v4.0.0
         with:
           semantic_version: 22.0.7
-          branch: main
           extra_plugins: |
             @semantic-release/commit-analyzer@11.1.0
             @semantic-release/release-notes-generator@12.1.0
