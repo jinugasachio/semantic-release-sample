@@ -1,6 +1,6 @@
 {
   "branches": [
-    "main"
+    "test"
   ],
   "ci": false,
   "plugins": [

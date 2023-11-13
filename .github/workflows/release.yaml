@@ -24,7 +24,7 @@ jobs:
         uses: cycjimmy/semantic-release-action@v4.0.0
         with:
           semantic_version: 22.0.7
-          branch: main
+          branch: test
           extra_plugins: |
             @semantic-release/changelog@6.0.0
             @semantic-release/git@10.0.0
