@@ -1,4 +1,4 @@
-name: Validate PR title for semantic-release
+name: Validate PR title
 
 on:
   pull_request:
