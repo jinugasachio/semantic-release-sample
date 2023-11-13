@@ -1,6 +1,6 @@
 {
   "branches": [
-    "refs/pull/1/merge"
+    "main"
   ],
   "ci": false,
   "plugins": [
