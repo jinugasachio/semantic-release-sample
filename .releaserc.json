@@ -7,12 +7,21 @@
     [
       "@semantic-release/commit-analyzer",
       {
-        "preset": "conventionalcommits"
+        "releaseRules": [
+          { "type": "feat", "release": "minor" },
+          { "type": "fix", "release": "patch" },
+          { "type": "perf", "release": "patch" },
+          { "scope": "no-release", "release": false },
+          { "release": "patch" }
+        ]
       }
     ],
     [
       "@semantic-release/release-notes-generator",
       {
+        "writerOpts": {
+          "includeDetails": true
+        },
         "preset": "conventionalcommits"
       }
     ],
