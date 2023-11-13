@@ -19,7 +19,9 @@
     [
       "@semantic-release/release-notes-generator",
       {
+        "preset": "conventionalcommits",
         "writerOpts": {
+          "commitsSort": ["subject", "scope"],
           "includeDetails": true
         }
       }
