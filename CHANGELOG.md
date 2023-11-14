@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+## [5.0.0](https://github.com/jinugasachio/semantic-release-sample/compare/v4.0.0...v5.0.0) (2023-11-14)
+
+
+### ⚠ BREAKING CHANGES
+
+* yyyyyyyyyyyy
+* tttttttt
+
+### Bug Fixes
+
+* doc ([9bc0f1a](https://github.com/jinugasachio/semantic-release-sample/commit/9bc0f1a7a3619e603c2e048ee51d7a40a139a49d))
+* workflow ([148425d](https://github.com/jinugasachio/semantic-release-sample/commit/148425d4fe55329bb67c1e0fb6fc589658d2b751))
+
 ## [4.0.0](https://github.com/jinugasachio/semantic-release-sample/compare/v3.0.0...v4.0.0) (2023-11-14)
 
 
