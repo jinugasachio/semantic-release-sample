@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+### [1.1.3](https://github.com/jinugasachio/semantic-release-sample/compare/v1.1.2...v1.1.3) (2023-11-14)
+
+
+### Bug Fixes
+
+* config ([fc7e35a](https://github.com/jinugasachio/semantic-release-sample/commit/fc7e35ab685ba73d8402394c290d32b92dca86d7))
+
 ### [1.1.2](https://github.com/jinugasachio/sementic-release-sample/compare/v1.1.1...v1.1.2) (2023-11-14)
 
 ### [1.1.1](https://github.com/jinugasachio/sementic-release-sample/compare/v1.1.0...v1.1.1) (2023-11-14)
