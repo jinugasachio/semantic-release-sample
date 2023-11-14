@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.0](https://github.com/jinugasachio/semantic-release-sample/compare/v1.1.3...v2.0.0) (2023-11-14)
+
+
+### ⚠ BREAKING CHANGES
+
+* config
+
+* Merge pull request #11 from jinugasachio/doc-3 ([78cd3d3](https://github.com/jinugasachio/semantic-release-sample/commit/78cd3d304f4451a8d0de246f3a0f5b09cc73ffb6)), closes [#11](https://github.com/jinugasachio/semantic-release-sample/issues/11)
+
 ### [1.1.3](https://github.com/jinugasachio/semantic-release-sample/compare/v1.1.2...v1.1.3) (2023-11-14)
 
 
